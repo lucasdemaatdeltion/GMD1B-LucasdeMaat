@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 36b5e60b791c54b4eadc786b9d2f9c4c
+timeCreated: 1478094272
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box004
+    100002: Box008
+    100004: Box012
+    100006: Box014
+    100008: Box015
+    100010: Line001
+    100012: Line010
+    100014: Line018
+    100016: Line019
+    100018: Line020
+    100020: Line021
+    100022: Line022
+    100024: Line023
+    100026: Line024
+    100028: Line025
+    100030: Line029
+    100032: Line030
+    100034: Line031
+    100036: Line032
+    100038: Line033
+    100040: Line036
+    100042: Line037
+    100044: Line038
+    100046: Line039
+    100048: //RootNode
+    100050: Plane001
+    400000: Box004
+    400002: Box008
+    400004: Box012
+    400006: Box014
+    400008: Box015
+    400010: Line001
+    400012: Line010
+    400014: Line018
+    400016: Line019
+    400018: Line020
+    400020: Line021
+    400022: Line022
+    400024: Line023
+    400026: Line024
+    400028: Line025
+    400030: Line029
+    400032: Line030
+    400034: Line031
+    400036: Line032
+    400038: Line033
+    400040: Line036
+    400042: Line037
+    400044: Line038
+    400046: Line039
+    400048: //RootNode
+    400050: Plane001
+    2300000: Box004
+    2300002: Box008
+    2300004: Box012
+    2300006: Box014
+    2300008: Box015
+    2300010: Line021
+    2300012: Line022
+    2300014: Line023
+    2300016: Line024
+    2300018: Line029
+    2300020: Line030
+    2300022: Line031
+    2300024: Line032
+    2300026: Line033
+    2300028: Line036
+    2300030: Line037
+    2300032: Plane001
+    3300000: Box004
+    3300002: Box008
+    3300004: Box012
+    3300006: Box014
+    3300008: Box015
+    3300010: Line021
+    3300012: Line022
+    3300014: Line023
+    3300016: Line024
+    3300018: Line029
+    3300020: Line030
+    3300022: Line031
+    3300024: Line032
+    3300026: Line033
+    3300028: Line036
+    3300030: Line037
+    3300032: Plane001
+    4300000: Box004
+    4300002: Box008
+    4300004: Plane001
+    4300006: Line021
+    4300008: Line022
+    4300010: Line023
+    4300012: Line024
+    4300014: Box012
+    4300016: Box014
+    4300018: Line029
+    4300020: Line030
+    4300022: Line031
+    4300024: Line032
+    4300026: Line033
+    4300028: Line036
+    4300030: Line037
+    4300032: Box015
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
