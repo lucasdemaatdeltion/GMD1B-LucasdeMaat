@@ -7,7 +7,7 @@ public class Deathzone : MonoBehaviour {
     {
         Destroy(a.gameObject);
         GameObject.Find("GameManager").GetComponent<GameManager>().lives -= 1;
-        GameObject.Find("Pinball kast nieuwste").GetComponent<Launcher>().spawnBall = false;
+        GameObject.Find("Flipperkast op scholl compleet").GetComponent<Launcher>().spawnBall = false;
     }
 
 }

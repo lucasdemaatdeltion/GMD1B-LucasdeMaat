@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Launcher : MonoBehaviour {
+public class Launcher : MonoBehaviour
+{
 
     public float power;
     public GameObject prefab;
@@ -11,23 +12,32 @@ public class Launcher : MonoBehaviour {
 
     void Update()
     {
-        if (spawnBall == false)
+        if (Input.GetButtonDown("Jump"))
         {
-            if (Input.GetButtonDown("Jump"))
+            if (GameObject.Find("GameManager").GetComponent<GameManager>().lives > 0)
+            {
+                if (spawnBall == false)
                 {
                     SpawnPinball();
-                    spawnBall = true;
                 }
+                else print("Nothing");
+            }
+            else
+            {
+                print("GameOver");
+            }
+
+            spawnBall = true;
         }
     }
 
-	void SpawnPinball()
+    void SpawnPinball()
     {
         GameObject pinball = (GameObject)(Instantiate(prefab, spawnLocation.GetComponent<Transform>().position, spawnLocation.GetComponent<Transform>().rotation));
         pinball.GetComponent<Rigidbody>().velocity = -transform.forward * power;
     }
 
-    
 
-	}
+
+}
 
