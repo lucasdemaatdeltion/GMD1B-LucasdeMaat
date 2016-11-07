@@ -3,12 +3,13 @@ using System.Collections;
 
 public class Flipper1 : MonoBehaviour
 {
+    // dit zijn de variabelen.
 
     public float flipperStrength;
     public float pushForce;
     private HingeJoint hinge;
 
-    // Use this for initialization
+    // Dit is voor de hinge joint om de juiste center te pakken.
     void Start()
     {
         GetComponent<Rigidbody>().centerOfMass = Vector3.zero;
@@ -16,7 +17,8 @@ public class Flipper1 : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    // Hiermee wordt gezegt dat "Fire1" ingedrukt moet zijn voor de actie.
+    // Dit is voor de inspector (hierin kun je zeggen hoe veel kracht de flipper heeft).
     void FixedUpdate()
     {
         if (Input.GetButtonDown("Fire1"))
