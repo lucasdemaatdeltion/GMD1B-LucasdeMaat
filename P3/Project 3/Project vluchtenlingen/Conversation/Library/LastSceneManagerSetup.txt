@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Office with city block area.unity
+  isLoaded: 1
+  isActive: 1
