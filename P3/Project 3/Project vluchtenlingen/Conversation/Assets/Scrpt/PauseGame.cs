@@ -36,7 +36,7 @@ public class PauseGame : MonoBehaviour {
             }
             canvas.gameObject.SetActive(true);
             Time.timeScale = 0;
-            Player.GetComponent<FirstPersonController>().enabled = false;
+            Player.GetComponent<First_person>().enabled = false;
             saveGame = gameObject.GetComponent<SaveGame>();
             saveGame.SaveGameSettings(false);
         }
@@ -44,7 +44,7 @@ public class PauseGame : MonoBehaviour {
         {
             canvas.gameObject.SetActive(false);
             Time.timeScale = 1;
-            Player.GetComponent<FirstPersonController>().enabled = true;
+            Player.GetComponent<First_person>().enabled = true;
         }
     }
 
